@@ -42,7 +42,7 @@ def home(request):
             # Ensure correct feature order
             input_df = input_df[['City', 'Latitude', 'Cuisines', 'Average Cost for two', 'Price range', 'Votes']]
 
-        
+
             # input_selected = selector.transform(input_df)
             input_selected = input_df  # Skip selector if it's causing shape mismatch
 
