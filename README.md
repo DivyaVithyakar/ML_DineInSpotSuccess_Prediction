@@ -30,4 +30,53 @@ This project predicts the success of dine-in restaurants based on various featur
 - Pandas, NumPy
 - HTML/CSS for frontend
 
+## Getting Started – Run Locally
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/ML_DineInSpotSuccess_Prediction.git
+cd ML_DineInSpotSuccess_Prediction
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  
+```
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Prepare the dataset
+
+```bash
+Place the dataset file (e.g., zomato.csv) in the appropriate folder as mentioned in your code (usually a /data/ or /input/ directory).
+```
+
+### 5. Run migrations (for Django)
+
+```bash
+python manage.py migrate
+```
+
+### 6. Start the Django server
+
+```bash
+python manage.py runserver
+```
+
+### 7. Open in browser
+
+```bash
+Visit http://127.0.0.1:8000 in your web browser to access the application.
+```
+
+
+
 
